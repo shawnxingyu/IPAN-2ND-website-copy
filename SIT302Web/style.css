@@ -1,0 +1,123 @@
+.container-fluid
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    font: normal .80em 'trebuchet ms', arial, sans-serif;
+    background: #F0EFE2 url("vegetables.jpg") repeat;
+    color: #000;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #738949
+}
+h4, h5, h6 {
+    font: normal 120% arial, sans-serif;
+    padding-left: 20px;
+}
+
+#ParaContent
+{
+    line-height: 1.7em;
+    width: 854px;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    padding: 24px 24px 20px 20px;
+    background-color: #ffffffd4;
+
+}
+
+.blackBar {
+    width: 100%;
+    background-color: #555;
+    position: fixed;
+    top: 0;
+    overflow: auto;
+  }
+  
+.blackBar a {
+    float: right;
+    padding: 12px;
+    color: white;
+    font: normal 100% arial, sans-serif;
+    text-decoration: none;
+   
+  }
+  
+.blackBar a:hover {
+    background-color: #000;
+  }
+  
+.active {
+    background-color: #738949db;
+  }
+.btn-success
+{
+    background-color: #738949db;
+    border-color: #738949db;
+    text-align: center
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 250px;
+    height:300px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008000;
+}
+
+
+#footer
+{ width: 854px;
+  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  height: 33px;
+  padding: 24px 120px 5px 0;
+  text-align: center; 
+  background: transparent;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-left: auto;
+
+}
+#footer a
+{ color: #000;
+  text-decoration: none;}
+
+#footer a:hover
+{ color: #000;
+  text-decoration: underline;}
